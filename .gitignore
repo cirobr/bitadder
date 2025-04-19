@@ -7,10 +7,10 @@ xlnx_auto_0_xdb/
 xst/
 
 # instances
-ledswitch*
-!ledswitch.bin
-!ledswitch.ucf
-!ledswitch.vhd
+adder1*
+!adder1.bin
+!adder1.ucf
+!adder1.vhd
 
 # project
 *.gise

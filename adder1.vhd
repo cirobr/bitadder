@@ -40,7 +40,12 @@ end adder1;
 architecture Behavioral of adder1 is
 
 begin
+process(cin, a, b)
 
+begin
+    y <= not (cin xor a xor b);
+    cout <= not ((cin and a) or (cin and b) or (a and b));
+end process;
 
 end Behavioral;
 
